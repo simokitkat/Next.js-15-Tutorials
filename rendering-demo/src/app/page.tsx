@@ -47,6 +47,7 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <Link href="/about">About</Link>
           <Link href="/dashboard">Dashboard</Link>
         </div>
       </main>
