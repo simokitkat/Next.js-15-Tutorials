@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-export default function ClientRoutePage() {
+export default function ServerRoutePage() {
   const settings = {
     dots: true,
   };
