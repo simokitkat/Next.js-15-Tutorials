@@ -1,13 +1,13 @@
-import { getProducts } from "@/db";
+import { getProducts } from "@/prisma-db";
 
 type Product = {
   id: number;
   title: string;
   price: number;
-  description: string;
+  description: string | null;
 };
 
-export default async function ProductsDBPage() {
+export default async function ProductsPrismaDBPage() {
   const products: Product[] = await getProducts();
   return (
     <ul className="space-y-4 p-4">
