@@ -1,5 +1,5 @@
-@import "../colors";
+@use "../colors" as colors;
 
 .highlightscss {
-  color: $secondary;
+  color: colors.$secondary;
 }
