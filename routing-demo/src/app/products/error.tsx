@@ -18,8 +18,7 @@ export default function ErrorBoundary({
   };
   return (
     <div>
-      {error.message}{" "}
-      <button onClick={() => startTransition(reload)}>Try again</button>
+      {error.message} <button onClick={reload}>Try again</button>
     </div>
   );
 }
